@@ -151,11 +151,13 @@ nav ul a{
 
 }
 .info1-box .infotext{
-  /*padding-left: 24px;*/
   width: 65%;
 }
 .infotext p{
   margin-top: 8px;
+}
+.info1-box .moble{
+  display: none;
 }
 
 .datetime{
@@ -246,7 +248,12 @@ footer{
   color: #8a8787;
 }
 
-@media only screen and (max-width:1024px){
+
+
+
+/*Mobile-Verison*/
+
+@media only screen and (max-width:768px){
   header{
     height:64px;
   }
@@ -306,15 +313,24 @@ footer{
   .info1-box.backgroundcolor{
     background-color: white;
   }
-  .info1-box img{
+  .info1-box .mobile{
+
     width: 100%;
     padding: 0;
+  }
+  .info1-box .desktop img{
+    display: none;
   }
   .infotext{
     padding: 0 16px;
   }
-  .infotext .read{
+  .read, .infotext .paragraph-container{
     color: blue;
+    display: block;
+    font-size: 18px;
+  }
+  .infotext .paragraph-container{
+    color: gray;
   }
   .main-course{
     padding: 32px 16px;
