@@ -317,11 +317,11 @@ footer{
     background-color: white;
   }
   .info1-box .mobile{
-
     width: 100%;
     padding: 0;
+    display: block; 
   }
-  .info1-box .desktop img{
+  .info1-box .desktop{
     display: none;
   }
   .infotext{
