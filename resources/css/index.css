@@ -150,6 +150,9 @@ nav ul a{
   padding: 14px 16px;
 
 }
+.info1-box .mobile{
+  display: none;
+}
 .info1-box .infotext{
   width: 65%;
 }
