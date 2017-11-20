@@ -39,11 +39,8 @@ header .top{
   display: none;
 }
 
-@media only screen and (max-width:768){
-  .mobile-logo{
-    display: flex;
-  }
-}
+
+
 
 
 nav ul a{
@@ -247,4 +244,118 @@ footer{
   display: flex;
   justify-content: space-between;
   color: #8a8787;
+}
+
+@media only screen and (max-width:1024px){
+  header{
+    height:64px;
+  }
+  body{
+    margin: auto;
+  }
+  header .top, .logo{
+    display: block;
+  }
+  .logo .mobile-logo{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+  }
+  .colmar, .academy,.desktop, nav{
+    display: none;
+  }
+  .mobile-logo img{
+    height: 40px;
+  }
+  .banner-box{
+    border: none;
+  }
+  .banner-content{
+    display: block;
+    padding: 0;
+  }
+  .banner-content img{
+    width: 100%;
+  }
+  .banner-text{
+    width: auto;
+    max-width: none;
+    margin: 32px 16px;
+    padding-bottom: 32px;
+  }
+  .banner-text h1{
+    font-size: 35px;
+  }
+  .main-left{
+    display: none;
+  }
+  .information-box{
+    width: 100%;
+    border: 0;
+    padding: 0 16px;
+  }
+  .box-outline{
+    padding: 16px 0px;
+  }
+  .info1-box{
+    display: block;
+    border: 0;
+    padding: 16px;
+  }
+  .info1-box.backgroundcolor{
+    background-color: white;
+  }
+  .info1-box img{
+    width: 100%;
+    padding: 0;
+  }
+  .infotext{
+    padding: 0 16px;
+  }
+  .infotext .read{
+    color: blue;
+  }
+  .main-course{
+    padding: 32px 16px;
+    background-color: white;
+    border: #e4e0e0 solid;
+  }
+  .courses{
+    width: 100%;
+    margin-top: 8px;
+  }
+  .course-boxes{
+    display: block;
+  }
+  .courses img {
+    display: none;
+  }
+  .courses h3, p{
+    display: none;
+  }
+  .course-details{
+    background-color: #d4cfcf;
+    margin: 0;
+    padding: 16px;
+  }
+  .course-details h2{
+    font-weight: normal;
+  }
+  .thesis-boxes{
+    margin-bottom: 24px;
+  }
+  .thesis-details, .text h2{
+    display: none;
+  }
+  .video{
+    max-width: 100%;
+    padding: 0;
+  }
+  footer{
+    margin: 16px;
+  }
+  footer .terms{
+    display: none;
+  }
 }
